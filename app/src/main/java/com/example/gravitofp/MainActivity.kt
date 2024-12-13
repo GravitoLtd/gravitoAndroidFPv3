@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         StrictMode.setThreadPolicy(policy)
 
 //        Initialize Api Client
-     apiClient = GravitoFPApiClient(this, "hmd.com", "app.hmd.com")
+     apiClient = GravitoFPApiClient(this, "your-domain.com", "app.your-domain.com")
 
 
         idEditText = findViewById(R.id.idEditText)
